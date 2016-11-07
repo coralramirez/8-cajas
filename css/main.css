@@ -1,0 +1,61 @@
+/* Inserta tu CSS aqui */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+div{
+	border:solid 1px black;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	background: #D3D3D3;
+	text-align: center;
+
+}
+
+.cajaPadre{
+	border:solid 1px black;
+	background: #D3D3D3;
+	width: 350px;
+	height: 120px;
+	position: relative;
+
+
+}
+
+.cajaHijo1{
+	border:solid 1px black;
+	width: 100px;
+	height: 100px;
+	background: #D3D3D3;
+	position: absolute;
+
+}
+
+.cajaHijo2{
+	border:solid 1px black;
+	width: 100px;
+	height: 100px;
+	background: #D3D3D3;
+	position: absolute;
+	left: 110px;
+
+}
+
+.cajaHijo3{
+	border:solid 1px black;
+	width: 100px;
+	height: 100px;
+	background: #D3D3D3;
+	position: absolute;
+	left: 220px;
+
+}
+
+.caja5{
+	position: relative;
+	top: -225px;
+	left: 120px;
+}
